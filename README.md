@@ -21,7 +21,7 @@ An automated computer vision system for analyzing fundus images, specifically de
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[username]/Retinal-Landmark-Detector.git
+git clone https://github.com/Michael-jze/Retinal-Landmark-Detector
 cd Retinal-Landmark-Detector
 ```
 
@@ -39,7 +39,15 @@ pip install -r requirements.txt
 python main.py [image_path]
 ```
 
-3. The program will automatically:
+3. Result demo:
+   - input:
+
+      ![input](images/healthy.png)
+   - output:
+   
+      ![output](images/final_result.png)
+
+4. The program will automatically:
    - Load and preprocess the image
    - Detect optic disc location and size
    - Identify vessel structures
@@ -105,12 +113,13 @@ The system employs a multi-step image processing and analysis approach:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+
 ## License
 
-[Add License Information]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-[Add Contact Information]
-
+For any questions or suggestions, please contact:
+- Email: jzengag@gmail.com 
 
